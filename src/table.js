@@ -15,7 +15,7 @@ export function Table({ columns, data }) {
                 ))}
               </TableRow>
             </TableHead>
-            <TableBody >
+            <TableBody>
               {data.map(row => (
                 <TableRow>
                   {columns.map(column => (
